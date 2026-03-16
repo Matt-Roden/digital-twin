@@ -29,7 +29,7 @@ ${state.error ? `Warning — an upstream error occurred: ${state.error}` : ""}`;
 
   try {
     const { text } = await generateText({
-      model: vertex("gemini-1.5-flash") as Parameters<typeof generateText>[0]["model"],
+      model: vertex("gemini-1.5-flash"),
       system: systemPrompt,
       prompt: `User intent: ${state.intent}
 

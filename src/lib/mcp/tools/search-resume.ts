@@ -29,7 +29,7 @@ export async function searchResume(
   });
 
   const { embedding } = await embed({
-    model: vertex.textEmbeddingModel("text-embedding-004") as Parameters<typeof embed>[0]["model"],
+    model: vertex.textEmbeddingModel("text-embedding-004"),
     value: input.query,
   });
 

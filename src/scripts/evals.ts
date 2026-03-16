@@ -62,7 +62,7 @@ const faithfulnessSchema = z.object({
 });
 
 const vertex = createVertex();
-const model = vertex("gemini-1.5-flash") as Parameters<typeof generateObject>[0]["model"];
+const model = vertex("gemini-1.5-flash");
 
 async function judgeFaithfulness(
   context: string,

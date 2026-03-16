@@ -26,7 +26,7 @@ export async function routerNode(
 
   try {
     const { object } = await generateObject({
-      model: vertex("gemini-1.5-flash") as Parameters<typeof generateObject>[0]["model"],
+      model: vertex("gemini-1.5-flash"),
       schema: routeSchema,
       system: `You are a routing agent for a professional portfolio digital twin.
 Classify the user's message and decide the next step:
