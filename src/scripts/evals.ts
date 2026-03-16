@@ -8,6 +8,7 @@
  *   pnpm evals
  */
 
+import "dotenv/config";
 import { createVertex } from "@ai-sdk/google-vertex";
 import { generateObject } from "ai";
 import { z } from "zod";

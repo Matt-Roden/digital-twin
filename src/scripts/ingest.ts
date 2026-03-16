@@ -9,6 +9,7 @@
  *   pnpm ingest -- --file ./data/cv.pdf --chunk-size 512
  */
 
+import "dotenv/config";
 import fs from "node:fs";
 import path from "node:path";
 import pdf from "pdf-parse";
