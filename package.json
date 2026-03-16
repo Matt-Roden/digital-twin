@@ -13,13 +13,13 @@
     "evals": "tsx src/scripts/evals.ts"
   },
   "dependencies": {
-    "@ai-sdk/google-vertex": "^3.0.118",
+    "@ai-sdk/google-vertex": "3.0.118",
     "@langchain/core": "^0.3.0",
     "@langchain/langgraph": "^0.2.0",
     "@langchain/langgraph-checkpoint": "^0.0.7",
     "@octokit/rest": "^21.0.0",
     "@supabase/supabase-js": "^2.49.0",
-    "ai": "^4.3.19",
+    "ai": "4.3.19",
     "clsx": "^2.1.1",
     "dotenv": "^17.3.1",
     "lucide-react": "^0.460.0",
